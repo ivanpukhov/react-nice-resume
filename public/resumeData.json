@@ -1,185 +1,342 @@
 {
-  "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+    "main": {
+        "name": "Приемная комиссия  ",
+        "description": "ВЫСШЕГО КОЛЛЕДЖА ИМЕНИ МАГЖАНА ЖУМАБАЕВА",
+        "image": "profilepic.png",
+        "bio": "Миссия Высшего колледжа имени М. Жумабаева заключается в реализации государственной политики в области технического и профессионального образования, обеспечивающей конкурентоспособность выпускников и устойчивое развитие колледжа.",
+        "contactmessage": "Можете оставить заявку",
+        "phone": "+7(777)335 5997",
+        "github": "https://github.com/ivaninbox/react-nice-resume",
+        "project": "https://github.com/ivaninbox/react-nice-resume",
+        "address": {
+            "street": "ул. Абая 28",
+            "city": "Петропавловск",
+            "state": "Северо-Казахстанская область",
+            "zip": "150000"
+        },
+        "website": "https://colmagzhan.kz",
+        "resumedownload": "https://colmagzhan.kz",
+        "social": [{
+                "name": "facebook",
+                "url": "https://www.facebook.com/colmagzhan/",
+                "className": "fa fa-facebook"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/collegemzhumabaeva/",
+                "className": "fa fa-instagram"
+            }
+        ]
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
-      {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
-      }
-    ]
-  },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
-      {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
-    ],
-    "work":[
-      {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Python",
-        "level":"60%"
-      },
-      {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
-      }
-    ]
-  },
-  "portfolio":{
-    "projects": [
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      }
-    ]
-  }
+    "slider": {
+        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "education": [{
+                "school": "Кружок английского языка",
+                "description": "Основная цель кружка - дать преподавателям знания, необходимые для внедрения на своих уроках элементов трехъязычия , что выражается в овладении  коммуникативными умениями в основных видах речевой деятельности: аудировании говорении, чтении и письме."
+            },
+            {
+                "school": "Кружок Lhv чтения",
+                "description": "Занятия в кружке позволяют студентам не только овладеть искусством выразительного чтения, но способствуют формированию умения свободно вести себя на сцене, владеть своим голосом, мимикой, жестами, позволяют обрести уверенность в себе, что пригодится им  в их дальнейшей профессиональной деятельности.."
+            }
+        ],
+        "work": [{
+                "company": "English club",
+                "description": "The English Club is a creative association of students. It provides a lively forum for the discussion and exchange of ideas among the students of our college."
+            },
+            {
+                "company": "Клуб «Учитель»",
+                "description": "Цели деятельности клуба: формирование у учащихся стойкого интереса к профессии учителя, целеустремленного овладения педагогическими умениями и навыками, а также формирование истинно педагогической направленности личности будущих педагогов"
+            },
+            {
+                "company": "Клуб нравственного воспитания «Надежда»",
+                "description": "Цель клуба: Воспитание морально-нравственных качеств у современных девушек"
+            }
+        ],
+        "skills": [{
+                "name": "Python",
+                "level": "60%"
+            },
+            {
+                "name": "VueJs",
+                "level": "55%"
+            },
+            {
+                "name": "ReactJs",
+                "level": "50%"
+            },
+            {
+                "name": "CSS",
+                "level": "90%"
+            },
+            {
+                "name": "PHP",
+                "level": "80%"
+            },
+            {
+                "name": "Swift",
+                "level": "50%"
+            },
+            {
+                "name": "JAVA",
+                "level": "80%"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "education": [{
+                "school": "Кружок английского языка",
+                "description": "Основная цель кружка - дать преподавателям знания, необходимые для внедрения на своих уроках элементов трехъязычия , что выражается в овладении  коммуникативными умениями в основных видах речевой деятельности: аудировании говорении, чтении и письме."
+            },
+            {
+                "school": "Кружок выразительного чтения",
+                "description": "Занятия в кружке позволяют студентам не только овладеть искусством выразительного чтения, но способствуют формированию умения свободно вести себя на сцене, владеть своим голосом, мимикой, жестами, позволяют обрести уверенность в себе, что пригодится им  в их дальнейшей профессиональной деятельности.."
+            },
+            {
+                "school": "Кружок ДОМБЫРА",
+                "description": "Знакомство со студентами, знакомство учащихся с музыкальным инструментом, обучить умениям и навыкам игры в ансамбле."
+            },
+            {
+                "school": "Кружок САЛАУАТТЫ ӨМІР САЛТЫ",
+                "description": "Өз денсаулығына деген құнды көзқарасты қалыптастыру. Оқушылардың токсикамандық тәртіпті алдын алу."
+            },
+            {
+                "school": "Кружок МЕНІҢ ОТБАСЫМ",
+                "description": "Отбасылық институты. Қазақстан Республикасының негізі ретінде нығайту және қазіргі заманғы Қазақстандық отбасылық құндылықтарды сақтау."
+            },
+            {
+                "school": "Кружок азбука семейного воспитания",
+                "description": "повышение педагогической и психологической культуры родителей и студентов, установление тесных контактов родительской общественности с колледжем, активное взаимодействие родителей и детей в деле воспитания подрастающего поколения."
+            },
+            {
+                "school": "Кружок Қазақ тілі",
+                "description": "Тыңдалым, оқылым, жазылым, сөйлесім әрекеттері арқылы қазақ тілінде сөйлеу және жазу дағдыларын қалыптастыру; "
+            },
+            {
+                "school": "«Жас шахматшы» үйірмесі",
+                "description": "Шахмат ойынының тарихы туралы түсінік беру. Ойын кезіндегі тәртіппен, ережесімен таныстыру. Оқушылардың логикалық ойлау қабілетін дамыту, есте сақтау, салыстыру, танымдық ой-өрісін жетілдіру. Шахмат сабағы арқылы шығармашыл, дарынды жеке тұлға жетілдіруге жағдай жасау. "
+            },
+            {
+                "school": "English club",
+                "description": "The English Club is a creative association of students. It provides a lively forum for the discussion and exchange of ideas among the students of our college."
+            },
+            {
+                "school": "Клуб «Учитель»",
+                "description": "Цели деятельности клуба: формирование у учащихся стойкого интереса к профессии учителя, целеустремленного овладения педагогическими умениями и навыками, а также формирование истинно педагогической направленности личности будущих педагогов"
+            },
+            {
+                "school": "Клуб нравственного воспитания «Надежда»",
+                "description": "Цель клуба: Воспитание морально-нравственных качеств у современных девушек"
+            }
+        ],
+
+        "work": [],
+        "skills": [{
+                "name": "Python",
+                "level": "60%"
+            },
+            {
+                "name": "VueJs",
+                "level": "55%"
+            },
+            {
+                "name": "ReactJs",
+                "level": "50%"
+            },
+            {
+                "name": "CSS",
+                "level": "90%"
+            },
+            {
+                "name": "PHP",
+                "level": "80%"
+            },
+            {
+                "name": "Swift",
+                "level": "50%"
+            },
+            {
+                "name": "JAVA",
+                "level": "80%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [{
+
+                "title": "Педагогика и методика начального обучения",
+                "category1": {
+                    "cvalifikation": "Квалификация: Учитель  начального образования",
+                    "lang": "Языки обучения:русский/казахский",
+                    "base": "База 9 кл.",
+                    "srok": "Срок обучения Срок обучеи3 г. 10 м."
+
+                },
+                "category2": {
+                    "cvalifikation": "Квалификация: Прикладной бакалавр педагогики и методики начального образования",
+                    "lang": "Языки обучения:русский",
+                    "base": "База 11 кл.",
+                    "srok": "Срок обучения 2 г. 10 м."
+
+                },
+                "image": "01.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Дошкольное воспитание и обучение",
+                "category1": {
+                    "cvalifikation": "Квалификация: Воспитатель организации дошкольного воспитания и обучения",
+                    "lang": "Языки обучения:русский/казахский",
+                    "base": "База 9 кл.",
+                    "srok": "Срок обучения 3 г. 10 м."
+
+                },
+                "category2": {
+                    "cvalifikation": "Квалификация: Прикладной бакалавр дошкольного обучения и воспитания ",
+                    "lang": "Языки обучения:казахский",
+                    "base": "База 11 кл.",
+                    "srok": "Срок обучения 2 г. 10 м."
+
+                },
+                "image": "02.png",
+                "url": "http://www.ivaninbox.com"
+            },
+            {
+                "title": "Педагогика и методика преподавания языка и литературы основного среднего образования",
+                "category1": {
+                    "cvalifikation": "Квалификация: Учитель иностранного языка",
+                    "lang": "Языки обучения:русский",
+                    "base": "База 9 кл.",
+                    "srok": "Срок обучения 3 г. 10 м."
+
+                },
+                "category2": {
+                    "cvalifikation": "Квалификация: Учитель казахского языка и литературы",
+                    "lang": "Языки обучения:казахский",
+                    "base": "База 9 кл.",
+                    "srok": "Срок обучения 3 г. 10 м."
+
+                },
+                "category3": {
+                    "cvalifikation": "Квалификация: Прикладной бакалавр педагогики и методики преподавания русского языка и литературы",
+                    "lang": "Языки обучения:русский",
+                    "base": "База 11 кл.",
+                    "srok": "Срок обучения 2 г. 10 м."
+
+                },
+                "image": "03.png",
+                "url": "http://www.ivaninbox.com/originalthaifood.github.io"
+            },
+            {
+                "title": "Программное обеспечение (по видам)",
+                "category1": {
+                    "cvalifikation": "Квалификация: Техник информационных систем",
+                    "lang": "Языки обучения:русский/казахский",
+                    "base": "База 9 кл.",
+                    "srok": "Срок обучения 2 г. 10 м."
+
+                },
+                "category2": {
+                    "cvalifikation": "Квалификация: Web-дизайнер",
+                    "lang": "Языки обучения:казахский",
+                    "base": "База 11 кл.",
+                    "srok": "Срок обучения 10 м."
+
+                },
+                "category3": {
+                    "cvalifikation": "Квалификация: Разработчик программного обеспечения",
+                    "lang": "Языки обучения:русский",
+                    "base": "База 9 кл.",
+                    "srok": "Срок обучения 3 г. 10 м."
+
+                },
+                "image": "04.png",
+                "url": "http://www.ivaninbox.com"
+            },
+            {
+                "title": "Вычислительная техника и информационные сети (по видам)",
+                "category1": {
+                    "cvalifikation": "Квалификация: Оператор компьютерного аппаратного обеспечения",
+                    "lang": "Языки обучения:русский/казахский",
+                    "base": "База 11 кл.",
+                    "srok": "Срок обучения 10 м."
+
+                },
+                "category2": {
+                    "cvalifikation": "",
+                    "lang": "",
+                    "base": "",
+                    "srok": ""
+
+                },
+                "image": "05.png",
+                "url": "http://www.smirkspace.com"
+            },
+
+            {
+                "title": "Социально-культурная деятельность (по видам)",
+                "category1": {
+                    "cvalifikation": "Квалификация: Организатор культурно-массовых мероприятий, преподаватель",
+                    "lang": "Языки обучения:русский",
+                    "base": "База 9 кл.",
+                    "srok": "Срок обучения 3 г. 10 м."
+
+                },
+                "category2": {
+                    "cvalifikation": "",
+                    "lang": "",
+                    "base": "",
+                    "srok": ""
+
+                },
+                "image": "06.png",
+                "url": "http://www.ivaninbox.com"
+            },
+
+            {
+                "title": "Музыкальное образование",
+                "category1": {
+                    "cvalifikation": "Квалификация: Учитель музыки дошкольного, начального и основного среднего образования",
+                    "lang": "Языки обучения:казахский",
+                    "base": "База 9 кл.",
+                    "srok": "Срок обучения 3 г. 10 м."
+
+                },
+                "category2": {
+                    "cvalifikation": "",
+                    "lang": "",
+                    "base": "",
+                    "srok": ""
+
+                },
+                "image": "07.png",
+                "url": "http://www.ivaninbox.com/originalthaifood.github.io"
+            },
+            {
+                "title": "Информатика",
+                "category1": {
+                    "cvalifikation": "Квалификация: Прикладной бакалавр информатики",
+                    "lang": "Языки обучения:русский",
+                    "base": "База 9 кл.",
+                    "srok": "Срок обучения 2 г. 10 м."
+
+                },
+                "category2": {
+                    "cvalifikation": "",
+                    "lang": "",
+                    "base": "",
+                    "srok": ""
+
+                },
+                "image": "08.png",
+                "url": "https://www.canadianwanderlust.com"
+            }
+
+        ]
+    }
 }
